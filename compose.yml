@@ -1,0 +1,6 @@
+services:
+  gcc:
+    build: .
+    tty: true
+    volumescdcd:
+      - ./mycode:/usr/src/myapp
