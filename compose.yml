@@ -2,5 +2,5 @@ services:
   gcc:
     build: .
     tty: true
-    volumescdcd:
+    volumes:
       - ./mycode:/usr/src/myapp
